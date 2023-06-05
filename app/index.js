@@ -1,4 +1,4 @@
-import { View, Text, ViewBase } from "react-native/types";
+import { View, Text} from "react-native";
 
 const Home = () => {
   return (
