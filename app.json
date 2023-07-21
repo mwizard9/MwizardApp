@@ -1,10 +1,42 @@
 {
   "expo": {
+    "name": "Job Go",
+    "slug": "wizardapp",
+    "version": "1.0.0",
     "scheme": "acme",
-    "web": {
-      "bundler": "metro"
+    "userInterfaceStyle": "light",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#212121"
     },
-    "name": "wizardapp",
-    "slug": "wizardapp"
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "tv.dibi.rewards",
+      "buildNumber": "1.0.1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "tv.dibi.rewards"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0d5022aa-57a0-4805-8985-5d4e4dfb01b7"
+      }
+    }
   }
 }
